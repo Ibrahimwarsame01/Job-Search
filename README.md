@@ -66,8 +66,7 @@ cp .env.example .env
 docker-compose up
 ```
 4. Open your browser
-
-
+http://localhost:3000
 ## Roadmap
 
 - [x] Project setup
