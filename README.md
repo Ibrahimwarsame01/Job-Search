@@ -1,4 +1,4 @@
-# Job Search 🔍
+# Job Search
 
 A real-time tech job search website built with HTML, CSS, JavaScript, Node.js, PostgreSQL, and Docker.
 
