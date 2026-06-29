@@ -19,36 +19,29 @@ A real-time tech job search website built with HTML, CSS, JavaScript, Node.js, P
 | Job Data | Remotive API |
 | Containerization | Docker |
 
-## Folder StructureJ
+## Folder Structure
 
-ob-Search/
-
-├── docker-compose.yml
-
-├── .env
-
-├── backend/
-
-│   ├── Dockerfile
-
-│   ├── server.js
-
-│   ├── db.js
-
+```
+Job-Search/
+├── .env                  # API's
+├── .gitignore
+├── docker-compose.yml    
+├── README.md
+│
+├── backend/              # Node.js
+│   ├── Dockerfile        # Containerization
+│   ├── package.json
+│   ├── server.js         
+│   ├── db.js             
 │   └── routes/
-
-│       ├── jobs.js
-
-│       └── search.js
-
-└── frontend/
-
-├── index.html
-
-├── style.css
-
-└── app.js
-
+│       ├── jobs.js       
+│       └── search.js     
+│
+└── frontend/             # HTML/CSS/JS
+    ├── index.html        # structure
+    ├── style.css         # light/dark styling
+    └── app.js            # search, render cards
+```
 ## Getting Started
 
 ### Prerequisites
